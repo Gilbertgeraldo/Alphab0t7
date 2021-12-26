@@ -3038,7 +3038,7 @@ await limitAdd(sender, limit)
 		            imageToBase64(pjr)
 		            .then((response) => {
 		            media =  Buffer.from(response, 'base64');
-		            alpha.sendMessage(from,media,image,{quoted:mek,caption:'Dasar wibu. Nih!!!\nJgn lupa follow ig:gaada_apa_apawkwk'})
+		            alpha.sendMessage(from,media,image,{quoted:mek,caption:'Dasar wibu. Nih!!!\nJgn lupa follow ig:gaada_apa'})
 		            }
 		            )
 		            .catch((error) => {
@@ -3069,8 +3069,8 @@ await limitAdd(sender, limit)
 		            var encmedia_ = JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo
 				    var media_ = await alpha.downloadAndSaveMediaMessage(encmedia_)
 		            anu = args.join(' ').split('|')
-		            satu = anu[0] !== '' ? anu[0] : `GILBERT`
-		            dua = typeof anu[1] !== 'undefined' ? anu[1] : `BOT WA`
+		            satu = anu[0] !== '' ? anu[0] : `SUBSCRIBE`
+		            dua = typeof anu[1] !== 'undefined' ? anu[1] : `ZEEONE OFC`
 		            require('./lib/fetcher.js').createExif(satu, dua)
 					require('./lib/fetcher.js').modStick(media_ , alpha, mek, from)
 					await limitAdd(sender, limit)
@@ -3280,7 +3280,7 @@ break
 							reply(txtnyee)
 							break
 				case 'premium': 
-							if (args.length === 0) return reply(`Kirim perintah *${prefix}premium* add/del 62xxx waktu (misal 1 hari -> 1d)\nExample:\n${prefix}premium add 6289656122352 1d`)
+							if (args.length === 0) return reply(`Kirim perintah *${prefix}premium* add/del 62xxx waktu (misal 1 hari -> 1d)\nExample:\n${prefix}premium add 62887435047326 1d`)
 							if (!mek.key.fromMe && !isOwner && !isCreator) return reply(lang.onlyOwner())
 							if (args[0] === 'add') {
 								if (mek.message.extendedTextMessage != undefined) {
@@ -3693,7 +3693,7 @@ ${anime.desc}\n\n*Link Batch* : ${anime.batch}\n*Link Download SD* : ${anime.bat
 		            var response = await alpha.acceptInvite(codeInvite)
 		            fakestatus('```SUKSES JOIN GRUP```')
 		            } catch {
-		            fakegroup('```LINK ERROR COK!```')
+		            fakegroup('```LINK ERROR!```')
 		            }
 		            break
 		    case 'twmp4': case 'twitter':
@@ -4118,7 +4118,7 @@ if (!isGroup) return reply(lang.onlygc())
 					}
 					seeer = `Nama : *${pushname}`
 					thumbb = await getBuffer(pic)
-					anuu  = {contextInfo:{"forwardingScore":999,"isForwarded":true,'stanzaId': "B826873620DD5947E683E3ABE663F263", 'participant': `${numbernye}@s.whatsapp.net`, 'remoteJid': '6289523258649-1604595598@g.us', 'quotedMessage': {"imageMessage": {"caption": `「 Bot by Gilbert 」`, 'jpegThumbnail': fs.readFileSync(`image/${thumbnail}`)}}}}
+					anuu  = {contextInfo:{"forwardingScore":999,"isForwarded":true,'stanzaId': "B826873620DD5947E683E3ABE663F263", 'participant': `${numbernye}@s.whatsapp.net`, 'remoteJid': '6289523258649-1604595598@g.us', 'quotedMessage': {"imageMessage": {"caption": `「 Bot by zeeone 」`, 'jpegThumbnail': fs.readFileSync(`image/${thumbnail}`)}}}}
                     alpha.sendMessage(from, thumbb ,image, anuu)
 				}
 				await limitAdd(sender, limit)
@@ -4332,7 +4332,7 @@ case 'tahta':
                    F = q
                    reply(lang.wait())
                    tahta = await getBuffer(`${ApiZeks}/api/hartatahta?text=${F}&apikey=${zeksApikey}`)
-                   tahtah = `${lang.success()}\n\nPlease follow ig:gaada_apa_apawkwk`
+                   tahtah = `${lang.success()}\n\nPlease Subscribe https://youtu.be/w4iQ4rwA0mo`
                    sendImageMaker(tahta, tahtah, sender)
                   await  limitAdd(sender, limit)
                   break
