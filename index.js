@@ -5499,14 +5499,14 @@ reply('Emror')
 }
 break
 case 'tes': case 'bot':
-var ini_gopayyp = `${ucapannya2}\nHalo owner ku, bot nya sudah on ya silahkan dipakai🥰
+var ini_gopayyp = `${ucapannya2}\nHalo owner ku, bot nya sudah on ya silahkan dipakai
 var buttonsos = [
 {buttonId: 'Menu', buttonText: {displayText: 'Menu'}, type: 1},
 {buttonId: 'runtime', buttonText: {displayText: 'Runtime'}, type: 1}]
 
 butptonMessagee = {
 contentText: ini_gopayyp,
-footerText: `${tampilTanggal}\n${tampilWaktu}` ,
+footerText: `${tampilTanggal}\n${tampilWaktu}`, 
 buttons: buttonsos,
 headerType: 1
 }
