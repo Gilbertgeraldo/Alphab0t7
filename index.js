@@ -4332,7 +4332,7 @@ case 'tahta':
                    F = q
                    reply(lang.wait())
                    tahta = await getBuffer(`${ApiZeks}/api/hartatahta?text=${F}&apikey=${zeksApikey}`)
-                   tahtah = `${lang.success()}\n\nPlease follow ig:@gaada_apa_apawkwk`
+                   tahtah = `${lang.success()}\n\nPlease follow ig:gaada_apa_apawkwk`
                    sendImageMaker(tahta, tahtah, sender)
                   await  limitAdd(sender, limit)
                   break
@@ -5499,19 +5499,19 @@ reply('Emror')
 }
 break
 case 'tes': case 'bot':
-var ini_gopayyp = `${ucapannya2}\nHalo owner ku, bot nya sudah on ya silahkan dipakai
+var ini_gopayyp = `${ucapannya2}\nBot sudah on kak silahkan di pakai`
 var buttonsos = [
 {buttonId: 'Menu', buttonText: {displayText: 'Menu'}, type: 1},
 {buttonId: 'runtime', buttonText: {displayText: 'Runtime'}, type: 1}]
 
 butptonMessagee = {
 contentText: ini_gopayyp,
-footerText: `${tampilTanggal}\n${tampilWaktu}`
+footerText: `${tampilTanggal}\n${tampilWaktu}` ,
 buttons: buttonsos,
 headerType: 1
 }
 alpha.sendMessage(from,  butptonMessagee, MessageType.buttonsMessage,{
-        caption: 'Botwea ©2k22',
+        caption: 'Botwea ©2k21',
         "contextInfo": {
             text: 'hi',
             "forwardingScore": 1000000000,
