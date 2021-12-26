@@ -5506,12 +5506,12 @@ var buttonsos = [
 
 butptonMessagee = {
 contentText: ini_gopayyp,
-footerText: `${tampilTanggal}\n${tampilWaktu}`, 
+footerText: `${tampilTanggal}\n${tampilWaktu}`
 buttons: buttonsos,
 headerType: 1
 }
 alpha.sendMessage(from,  butptonMessagee, MessageType.buttonsMessage,{
-        caption: 'Botwea ©2k21',
+        caption: 'Botwea ©2k22',
         "contextInfo": {
             text: 'hi',
             "forwardingScore": 1000000000,
