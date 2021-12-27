@@ -5506,7 +5506,7 @@ var buttonsos = [
 
 butptonMessagee = {
 contentText: ini_gopayyp,
-footerText: `${tampilTanggal}\n${tampilWaktu}` ,
+footerText: `${tampilTanggal}\n${tampilWaktu}`,
 buttons: buttonsos,
 headerType: 1
 }
