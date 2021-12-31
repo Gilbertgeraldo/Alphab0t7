@@ -61,7 +61,7 @@ ${numberik}➛Speed : ${latensii.toFixed(4)} Second
 ├❒ Group_support
 └❒ Ownerbot
 
-❒ _Creator BotWea Gilbert© 2K21_ ❒
+❒ _Creator BotWea Gilbert© 2K22_ ❒
 `
 }
 const convert = (prefix) => {
@@ -969,7 +969,7 @@ ${numberik} ${prefix}yuzuki
 ${numberik} ${prefix}akame
 ${numberik} ${prefix}mikosiba
 
-❏───「 *GILBERT  BOT」───❏
+❏───「 *GILBERT  BOT*」───❏
 `
 }
 
