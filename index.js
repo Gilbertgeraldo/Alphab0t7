@@ -2274,7 +2274,7 @@ let papakpo = [{
 											},
 										"type": "RESPONSE"
 										}]
-								sendButLocation(from, userProcfile , `NOTE ！\nJika whatsapp mod kamu belum support button silahkan tonton video ini https://youtu.be/ERGID4Fmo9w\n\n${botname}™© | By ${ownername}`,pp_userz, papakpo, {contextInfo: { mentionedJid: [sender]}})
+								sendButLocation(from, userProcfile , `NOTE ！\nJika whatsapp mod kamu belum support button silahkan ketik ".allmenu"\n\n${botname}™© | By ${ownername}`,pp_userz, papakpo, {contextInfo: { mentionedJid: [sender]}})
 }
 break
 	case 'verify': case 'daftar':
@@ -2358,7 +2358,7 @@ const media1 = await alpha.prepareMessage(from, content1, MessageType.location, 
 let bacotlu1 = media1.message["ephemeralMessage"] ? media1.message.ephemeralMessage : media1
 
 const buttons1 = [
-  {buttonId: 'owner', buttonText: {displayText: '⋮☰ OWNER'}, type: 1},
+  {buttonId: 'owner', buttonText: {displayText: '⋮☰ OWNER👍'}, type: 1},
   {buttonId: 'botstat', buttonText:{displayText: '✓ STATISTIC'}, type: 1},
   {buttonId: 'Command', buttonText: {displayText: '❍ LIST MESSAGE'}, type: 1}
 ]
@@ -2372,7 +2372,7 @@ const btn1 = {
 }
 
 alpha.sendMessage(from,  btn1, MessageType.buttonsMessage,{
-        caption: 'Botwea ©2k21',
+        caption: 'Botwea ©2k22',
         "contextInfo": {
             text: 'hi',
             "forwardingScore": 1000000000,
@@ -2486,7 +2486,7 @@ jdii = groupMembers
 koss = groupMembers
 akuu = jdii[Math.floor(Math.random() * jdii.length)]
 diaa = koss[Math.floor(Math.random() * koss.length)]
-teks = `Ciee.. yang lagi jadian @${akuu.jid.split('@')[0]}  (♥️ ) @${diaa.jid.split('@')[0]} `
+teks = `Ciee.. yang lagi jadian AWOKAWOK @${akuu.jid.split('@')[0]}  (♥️ ) @${diaa.jid.split('@')[0]} `
 jds.push(akuu.jid)
 jds.push(diaa.jid)
 mentions(teks, jds, true)
@@ -3038,7 +3038,7 @@ await limitAdd(sender, limit)
 		            imageToBase64(pjr)
 		            .then((response) => {
 		            media =  Buffer.from(response, 'base64');
-		            alpha.sendMessage(from,media,image,{quoted:mek,caption:'Dasar wibu. Nih!!!\nJgn lupa follow ig:gaada_apa'})
+		            alpha.sendMessage(from,media,image,{quoted:mek,caption:'Dasar wibu. Nih!!!\nJgn lupa follow ig:gaada_apa_apawkwk'})
 		            }
 		            )
 		            .catch((error) => {
@@ -3069,8 +3069,8 @@ await limitAdd(sender, limit)
 		            var encmedia_ = JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo
 				    var media_ = await alpha.downloadAndSaveMediaMessage(encmedia_)
 		            anu = args.join(' ').split('|')
-		            satu = anu[0] !== '' ? anu[0] : `SUBSCRIBE`
-		            dua = typeof anu[1] !== 'undefined' ? anu[1] : `ZEEONE OFC`
+		            satu = anu[0] !== '' ? anu[0] : `GILBERT`
+		            dua = typeof anu[1] !== 'undefined' ? anu[1] : `BOT WA`
 		            require('./lib/fetcher.js').createExif(satu, dua)
 					require('./lib/fetcher.js').modStick(media_ , alpha, mek, from)
 					await limitAdd(sender, limit)
@@ -4118,7 +4118,7 @@ if (!isGroup) return reply(lang.onlygc())
 					}
 					seeer = `Nama : *${pushname}`
 					thumbb = await getBuffer(pic)
-					anuu  = {contextInfo:{"forwardingScore":999,"isForwarded":true,'stanzaId': "B826873620DD5947E683E3ABE663F263", 'participant': `${numbernye}@s.whatsapp.net`, 'remoteJid': '6289523258649-1604595598@g.us', 'quotedMessage': {"imageMessage": {"caption": `「 Bot by zeeone 」`, 'jpegThumbnail': fs.readFileSync(`image/${thumbnail}`)}}}}
+					anuu  = {contextInfo:{"forwardingScore":999,"isForwarded":true,'stanzaId': "B826873620DD5947E683E3ABE663F263", 'participant': `${numbernye}@s.whatsapp.net`, 'remoteJid': '6289523258649-1604595598@g.us', 'quotedMessage': {"imageMessage": {"caption": `「 Bot by Gilbert 」`, 'jpegThumbnail': fs.readFileSync(`image/${thumbnail}`)}}}}
                     alpha.sendMessage(from, thumbb ,image, anuu)
 				}
 				await limitAdd(sender, limit)
@@ -4332,7 +4332,7 @@ case 'tahta':
                    F = q
                    reply(lang.wait())
                    tahta = await getBuffer(`${ApiZeks}/api/hartatahta?text=${F}&apikey=${zeksApikey}`)
-                   tahtah = `${lang.success()}\n\nPlease Subscribe https://youtu.be/w4iQ4rwA0mo`
+                   tahtah = `${lang.success()}\n\nPlease follow IG:@gaada_apa_apawkwk`
                    sendImageMaker(tahta, tahtah, sender)
                   await  limitAdd(sender, limit)
                   break
@@ -4341,7 +4341,7 @@ case 'tahta':
                    F = q
                    reply(lang.wait())
                    ytgold = await getBuffer(`${ApiZeks}/api/gplaybutton?text=${F}&apikey=${zeksApikey}`)
-                   ytgoldp = `${lang.success()}\n\nPlease Subscribe https://youtu.be/w4iQ4rwA0mo`
+                   ytgoldp = `${lang.success()}\n\nPlease follow :@gaada_apa_apawkwk`
                    sendImageMaker(ytgold, ytgoldp, sender)
                    await  limitAdd(sender, limit)
                    break  
@@ -4350,7 +4350,7 @@ case 'tahta':
                    F = q
                    reply(lang.wait())
                    ytsilver = await getBuffer(`${ApiZeks}/api/splaybutton?text=${F}&apikey=${zeksApikey}`)
-                   ytsilverp = `${lang.success()}\n\nPlease Subscribe https://youtu.be/w4iQ4rwA0mo`
+                   ytsilverp = `${lang.success()}\n\nPlease follow IG:@gaada_apa_apawkwk`
                    sendImageMaker(ytsilver, ytsilverp, sender)
                    await  limitAdd(sender, limit)
                    break              
